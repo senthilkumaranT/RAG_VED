@@ -15,3 +15,4 @@ agent = Agent(
 )
 
 agent.print_response("Search for the latest news on artificial intelligence", stream=True)
+print(agent.response)
